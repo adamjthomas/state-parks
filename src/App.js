@@ -1,8 +1,13 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 import "./App.scss";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
