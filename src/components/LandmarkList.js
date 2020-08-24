@@ -1,9 +1,10 @@
 import React from "react";
 import Landmark from "./Landmark";
+import "../App.scss";
 
 export default function LandmarkList() {
   return (
-    <section>
+    <section className="landmark-list">
       <Landmark />
     </section>
   );
